@@ -9,7 +9,7 @@
 Para modificar los parametros del servidor SQL se debe modificar el archivo server-config.json el cual contiene:
 
 ```json
-{`
+{
     "host": "localhost",
     "user": "andres",
     "password": "",
@@ -30,4 +30,12 @@ El taller se divide en los siguientes archivos, cada uno representando un punto 
 - 4-exportar_csv.py
 
 todos estos archivos hacen uso de la clase ConectorSql la cual se encuentra en ConectorSql.py y se encarga de manejar todas
-las conexiones SQL de una manera m
+las conexiones SQL de una manera más organizada.
+
+## Como usar
+
+Después de modificar el archivo server-config.json con los parametros de tu base de datos puedes probar los ejercicios de esta manera:
+```shell
+python3 <nombre del archivo del ejercicio>
+```
+
