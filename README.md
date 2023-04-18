@@ -6,6 +6,17 @@
 
 ## Estructura
 
+Para modificar los parametros del servidor se debe modificar el archivo server-config.json el cual contiene:
+''json
+{
+    "host": "localhost",
+    "user": "adm",
+    "password": "deep",
+    "database": "andres_clientes_potenciales"
+}
+
+''
+
 El taller se divide en los siguientes archivos, cada uno representando un punto del ejercicio.
 
 - 0-insertar_datos.py
