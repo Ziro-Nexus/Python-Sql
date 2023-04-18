@@ -1,6 +1,6 @@
 {
     "host": "localhost",
-    "user": "adm",
-    "password": "deep",
+    "user": "andres",
+    "password": "",
     "database": "andres_clientes_potenciales"
 }
