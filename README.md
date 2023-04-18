@@ -38,4 +38,9 @@ Después de modificar el archivo server-config.json con los parametros de tu bas
 ```shell
 python3 <nombre del archivo del ejercicio>
 ```
+por ejemplo para insertar un nuevo registro en la base de datos:
+
+```shell
+python3 0-insertar_datos.py
+```
 
